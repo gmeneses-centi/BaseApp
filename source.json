@@ -20,13 +20,16 @@
         }
       ],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          "com.apple.security.application-groups",
+          "get-task-allow"
+        ],
         "privacy": {
-          "NSBluetoothAlwaysAndWhenInUseUsageDescription": "This app requires Bluetooth access\n    at all times.\n    ",
-          "NSBluetoothAlwaysUsageDescription": "This app requires Bluetooth to connect to BLE\n    devices.\n    ",
-          "NSBluetoothPeripheralUsageDescription": "This app communicates with BLE\n    peripherals.\n    ",
-          "NSCameraUsageDescription": "This app can take photos.\n    ",
-          "NSPhotoLibraryUsageDescription": "This app can display photos.\n    "
+          "NSBluetoothAlwaysAndWhenInUseUsageDescription": "This app requires Bluetooth access",
+          "NSBluetoothAlwaysUsageDescription": "This app requires Bluetooth to connect to BLE",
+          "NSBluetoothPeripheralUsageDescription": "This app communicates with BLE",
+          "NSCameraUsageDescription": "This app can take photos.",
+          "NSPhotoLibraryUsageDescription": "This app can display photos."
         }
       }
     }
