@@ -5,7 +5,7 @@
   "apps": [
     {
       "name": "Aika",
-      "bundleIdentifier": "pt.centi-aika",
+      "bundleIdentifier": "pt.cent-aika",
       "developerName": "centisoftware",
       "localizedDescription": "Aika prototype app",
       "iconURL": "https://raw.githubusercontent.com/gmeneses-centi/BaseApp/main/icon-b130d459-2dc9-405d-95f8-2c32c4dbefce.png",
